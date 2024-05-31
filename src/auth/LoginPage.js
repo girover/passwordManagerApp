@@ -64,7 +64,7 @@ const LoginPage = () => {
 
                         <div className="d-flex justify-content-center py-4">
                             <a href="index.html" className="logo d-flex align-items-center w-auto">
-                                <img src="/passwordManagerApp/img/pm_logo.webp" alt="A logo image for the password manager app" />
+                                <img src="/img/pm_logo.webp" alt="A logo image for the password manager app" />
                             </a>
                         </div>
 
