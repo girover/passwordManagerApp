@@ -22,7 +22,7 @@ function App() {
 
   return (
     <AuthProvider>
-      <Router basename="/passwordManagerApp">
+      <Router basename="/passwordManagerApp/">
         <Routes>
           <Route path='/' element={<ProtectedRoute><Layout><Home /></Layout></ProtectedRoute>} />
           <Route path='/login' element={<LoginPage />} />
