@@ -25,7 +25,18 @@ const Passwords = () => {
             </div>
             <div className="pt-4 py-2">
                 <table className="table table-sm table-striped">
-                    <TableHead bgColor="blue-300" headers={['#', 'Name', 'Last used', 'Username', 'Password', 'Category', 'Actions']} />
+                    {/* <TableHead bgColor="blue-300" headers={['#', 'Name', 'Last used', 'Username', 'Password', 'Category', 'Actions']} /> */}
+                    <thead>
+                        <th>
+                            <td>#</td>
+                            <td>Name</td>
+                            <td className="d-none d-lg-table-cell">Last Used</td>
+                            <td>Username</td>
+                            <td>Password</td>
+                            <td className="d-none d-lg-table-cell">Category</td>
+                            <td>Actions</td>
+                        </th>
+                    </thead>
                     <tbody className="table-group-devider">
                         {passwords.map(password =>
                             <tr key={password.id}>
