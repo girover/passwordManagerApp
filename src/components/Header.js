@@ -25,7 +25,7 @@ const Header = () => {
 
                     <li className="nav-item dropdown pe-3">
                         <a className="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown" id="dropdownMenuProfile">
-                            <img id="img-avatar" src="/img/avatar.png" alt="Avatar" />
+                            <img id="img-avatar" src="/passwordManagerApp/img/avatar.png" alt="Avatar" />
                             <span className="d-none d-md-block dropdown-toggle text-dark ps-2">
                                 {user ? user.username : 'username'}
                             </span>
