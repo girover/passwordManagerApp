@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/passwordManagerApp/static/js/main.1ccb168f.js",
+    "main.js": "/passwordManagerApp/static/js/main.f0672c52.js",
     "index.html": "/passwordManagerApp/index.html",
-    "main.1ccb168f.js.map": "/passwordManagerApp/static/js/main.1ccb168f.js.map"
+    "main.f0672c52.js.map": "/passwordManagerApp/static/js/main.f0672c52.js.map"
   },
   "entrypoints": [
-    "static/js/main.1ccb168f.js"
+    "static/js/main.f0672c52.js"
   ]
 }
