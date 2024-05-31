@@ -27,15 +27,15 @@ const Passwords = () => {
                 <table className="table table-sm table-striped">
                     {/* <TableHead bgColor="blue-300" headers={['#', 'Name', 'Last used', 'Username', 'Password', 'Category', 'Actions']} /> */}
                     <thead>
-                        <th>
-                            <td>#</td>
-                            <td>Name</td>
-                            <td className="d-none d-lg-table-cell">Last Used</td>
-                            <td>Username</td>
-                            <td>Password</td>
-                            <td className="d-none d-lg-table-cell">Category</td>
-                            <td>Actions</td>
-                        </th>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th className="d-none d-lg-table-cell">Last Used</th>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th className="d-none d-lg-table-cell">Category</th>
+                            <th>Actions</th>
+                        </tr>
                     </thead>
                     <tbody className="table-group-devider">
                         {passwords.map(password =>
